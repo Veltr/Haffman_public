@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/YaricsTor.frag</file>
+        <file>Resources/FragOne.frag</file>
+        <file>Resources/VertOne.vert</file>
+        <file>Resources/L6/forTexture.frag</file>
+        <file>Resources/L6/forTexture.vert</file>
+        <file>Resources/L6/0.jpg</file>
+        <file>Resources/L6/8_9.jpg</file>
+        <file>Resources/L6/10_11.png</file>
+        <file>Resources/YaricsCube.frag</file>
+        <file>Resources/L7/Vert7.vert</file>
+        <file>Resources/L7/Frag7.frag</file>
+        <file>Resources/L8/Vert8.vert</file>
+        <file>Resources/L8/Frag8.frag</file>
+        <file>Resources/L9/Vert9.vert</file>
+        <file>Resources/L9/Frag9.frag</file>
+        <file>Resources/L10/Vert10.vert</file>
+        <file>Resources/L10/Frag10.frag</file>
+        <file>Resources/L10/Lamp10.vert</file>
+        <file>Resources/L10/Lamp10.frag</file>
+    </qresource>
+</RCC>
