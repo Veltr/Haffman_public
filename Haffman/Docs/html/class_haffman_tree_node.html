@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Архиватор Хаффмана: Класс HaffmanTreeNode</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Архиватор Хаффмана
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Поиск','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="class_haffman_tree_node-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle"><div class="title">Класс HaffmanTreeNode</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Узел дерева Хаффмана  
+ <a href="class_haffman_tree_node.html#details">Подробнее...</a></p>
+
+<p><code>#include &lt;<a class="el" href="haffmantree_8h_source.html">haffmantree.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a6a4b47f000032fe7b530862123818dde"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_haffman_tree_node.html#a6a4b47f000032fe7b530862123818dde">HaffmanTreeNode</a> ()</td></tr>
+<tr class="memdesc:a6a4b47f000032fe7b530862123818dde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Пустой узел  <a href="class_haffman_tree_node.html#a6a4b47f000032fe7b530862123818dde">Подробнее...</a><br /></td></tr>
+<tr class="separator:a6a4b47f000032fe7b530862123818dde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba248119ca6f83e04771e768005205a2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_haffman_tree_node.html#aba248119ca6f83e04771e768005205a2">HaffmanTreeNode</a> (float frequency)</td></tr>
+<tr class="memdesc:aba248119ca6f83e04771e768005205a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Узел без префикса  <a href="class_haffman_tree_node.html#aba248119ca6f83e04771e768005205a2">Подробнее...</a><br /></td></tr>
+<tr class="separator:aba248119ca6f83e04771e768005205a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f051c4a5cfc41aff64e816f06233c2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_haffman_tree_node.html#a7f051c4a5cfc41aff64e816f06233c2c">HaffmanTreeNode</a> (float frequency, char value_)</td></tr>
+<tr class="memdesc:a7f051c4a5cfc41aff64e816f06233c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Узел с префиксом  <a href="class_haffman_tree_node.html#a7f051c4a5cfc41aff64e816f06233c2c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7f051c4a5cfc41aff64e816f06233c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf06e93e8f6ab082b5d188d05f0a1a2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_haffman_tree_node.html#abf06e93e8f6ab082b5d188d05f0a1a2f">~HaffmanTreeNode</a> ()</td></tr>
+<tr class="memdesc:abf06e93e8f6ab082b5d188d05f0a1a2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Очистка значений  <a href="class_haffman_tree_node.html#abf06e93e8f6ab082b5d188d05f0a1a2f">Подробнее...</a><br /></td></tr>
+<tr class="separator:abf06e93e8f6ab082b5d188d05f0a1a2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:a85e656a6db4091fca1b45e239c4bae3d"><td class="memItemLeft" align="right" valign="top"><a id="a85e656a6db4091fca1b45e239c4bae3d" name="a85e656a6db4091fca1b45e239c4bae3d"></a>
+<a class="el" href="class_haffman_tree_node.html">HaffmanTreeNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>first</b></td></tr>
+<tr class="separator:a85e656a6db4091fca1b45e239c4bae3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0ae9ec1d50f746533c6a5f900d18233"><td class="memItemLeft" align="right" valign="top"><a id="ad0ae9ec1d50f746533c6a5f900d18233" name="ad0ae9ec1d50f746533c6a5f900d18233"></a>
+<a class="el" href="class_haffman_tree_node.html">HaffmanTreeNode</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>second</b></td></tr>
+<tr class="separator:ad0ae9ec1d50f746533c6a5f900d18233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3846a807cc806557671e6fbd4732dc2"><td class="memItemLeft" align="right" valign="top"><a id="af3846a807cc806557671e6fbd4732dc2" name="af3846a807cc806557671e6fbd4732dc2"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>currentFrequency</b></td></tr>
+<tr class="separator:af3846a807cc806557671e6fbd4732dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab840d10114793d0ad917adfa334fb2f2"><td class="memItemLeft" align="right" valign="top"><a id="ab840d10114793d0ad917adfa334fb2f2" name="ab840d10114793d0ad917adfa334fb2f2"></a>
+char&#160;</td><td class="memItemRight" valign="bottom"><b>value</b></td></tr>
+<tr class="separator:ab840d10114793d0ad917adfa334fb2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaab50f01a2677ac14723c84d869c5d44"><td class="memItemLeft" align="right" valign="top"><a id="aaab50f01a2677ac14723c84d869c5d44" name="aaab50f01a2677ac14723c84d869c5d44"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>haveValue</b> = false</td></tr>
+<tr class="separator:aaab50f01a2677ac14723c84d869c5d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p >Узел дерева Хаффмана </p>
+<p >Данный класс содержит значения узлов дерева Хаффмана </p>
+</div><h2 class="groupheader">Конструктор(ы)</h2>
+<a id="a6a4b47f000032fe7b530862123818dde" name="a6a4b47f000032fe7b530862123818dde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a4b47f000032fe7b530862123818dde">&#9670;&nbsp;</a></span>HaffmanTreeNode() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HaffmanTreeNode::HaffmanTreeNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Пустой узел </p>
+<p >Все поля класса обнуляются </p>
+
+</div>
+</div>
+<a id="aba248119ca6f83e04771e768005205a2" name="aba248119ca6f83e04771e768005205a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba248119ca6f83e04771e768005205a2">&#9670;&nbsp;</a></span>HaffmanTreeNode() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HaffmanTreeNode::HaffmanTreeNode </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>frequency</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Узел без префикса </p>
+<p >Используется во время построении дерева </p><dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frequency</td><td>Текущая частота </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7f051c4a5cfc41aff64e816f06233c2c" name="a7f051c4a5cfc41aff64e816f06233c2c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f051c4a5cfc41aff64e816f06233c2c">&#9670;&nbsp;</a></span>HaffmanTreeNode() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HaffmanTreeNode::HaffmanTreeNode </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>frequency</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char&#160;</td>
+          <td class="paramname"><em>value_</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Узел с префиксом </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">frequency</td><td>Текущая частота </td></tr>
+    <tr><td class="paramname">value_</td><td>Текущий префикс </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abf06e93e8f6ab082b5d188d05f0a1a2f" name="abf06e93e8f6ab082b5d188d05f0a1a2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf06e93e8f6ab082b5d188d05f0a1a2f">&#9670;&nbsp;</a></span>~HaffmanTreeNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">HaffmanTreeNode::~HaffmanTreeNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Очистка значений </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Необходимо сделать:</a></b></dt><dd>Придумать, что тут вообще очищать </dd></dl>
+
+</div>
+</div>
+<hr/>Объявления и описания членов классов находятся в файлах:<ul>
+<li><a class="el" href="haffmantree_8h_source.html">haffmantree.h</a></li>
+<li>haffmantree.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

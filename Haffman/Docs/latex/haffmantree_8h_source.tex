@@ -1,0 +1,39 @@
+\hypertarget{haffmantree_8h_source}{}\doxysection{haffmantree.\+h}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef HAFMANTREE\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define HAFMANTREE\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{13 \textcolor{keyword}{class }\mbox{\hyperlink{class_haffman_tree_node}{HaffmanTreeNode}}\{}
+\DoxyCodeLine{14 \textcolor{keyword}{public}:}
+\DoxyCodeLine{15     \mbox{\hyperlink{class_haffman_tree_node_a6a4b47f000032fe7b530862123818dde}{HaffmanTreeNode}}();}
+\DoxyCodeLine{16     \mbox{\hyperlink{class_haffman_tree_node_a6a4b47f000032fe7b530862123818dde}{HaffmanTreeNode}}(\textcolor{keywordtype}{float} frequency);}
+\DoxyCodeLine{17     \mbox{\hyperlink{class_haffman_tree_node_a6a4b47f000032fe7b530862123818dde}{HaffmanTreeNode}}(\textcolor{keywordtype}{float} frequency, \textcolor{keywordtype}{char} value\_);}
+\DoxyCodeLine{18     \mbox{\hyperlink{class_haffman_tree_node_abf06e93e8f6ab082b5d188d05f0a1a2f}{\string~HaffmanTreeNode}}();}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20     \mbox{\hyperlink{class_haffman_tree_node}{HaffmanTreeNode}} * first, * second;}
+\DoxyCodeLine{21     \textcolor{keywordtype}{float} currentFrequency;}
+\DoxyCodeLine{22     \textcolor{keywordtype}{char} value;}
+\DoxyCodeLine{23     \textcolor{keywordtype}{bool} haveValue = \textcolor{keyword}{false};}
+\DoxyCodeLine{24 \};}
+\DoxyCodeLine{25 }
+\DoxyCodeLine{32 \textcolor{keyword}{class }\mbox{\hyperlink{class_haffman_tree}{HaffmanTree}}\{}
+\DoxyCodeLine{33 \textcolor{keyword}{public}:}
+\DoxyCodeLine{34     \mbox{\hyperlink{class_haffman_tree_node}{HaffmanTreeNode}}* start;}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_haffman_tree_aba49b5f9d551c141004b78e900c9ac56}{TryGetChar}}(\textcolor{keywordtype}{int} currentBit, \textcolor{keywordtype}{char}\& out);}
+\DoxyCodeLine{37     std::vector<std::string>\& \mbox{\hyperlink{class_haffman_tree_a032d0b880f614a96053db17e0db35c82}{GetPrefixes}}();}
+\DoxyCodeLine{38     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_haffman_tree_a6e5b485febb9dbb9deabc7167a7b17a0}{Clear}}();}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{40 \textcolor{keyword}{private}:}
+\DoxyCodeLine{41     \mbox{\hyperlink{class_haffman_tree_node}{HaffmanTreeNode}}* \_currentNode = NULL;}
+\DoxyCodeLine{42 }
+\DoxyCodeLine{43     \textcolor{keywordtype}{void} GetPrefixesFunction(\mbox{\hyperlink{class_haffman_tree_node}{HaffmanTreeNode}}* Node, std::vector<std::string>\& v, std::string word = \textcolor{stringliteral}{"{}"{}});}
+\DoxyCodeLine{44 \};}
+\DoxyCodeLine{45 }
+\DoxyCodeLine{46 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// HAFMANTREE\_H}}
+
+\end{DoxyCode}

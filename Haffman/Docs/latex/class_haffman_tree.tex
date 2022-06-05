@@ -1,0 +1,85 @@
+\hypertarget{class_haffman_tree}{}\doxysection{Класс Haffman\+Tree}
+\label{class_haffman_tree}\index{HaffmanTree@{HaffmanTree}}
+
+
+Дерево Хаффмана  
+
+
+
+
+{\ttfamily \#include $<$haffmantree.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_haffman_tree_aba49b5f9d551c141004b78e900c9ac56}{Try\+Get\+Char}} (int current\+Bit, char \&out)
+\begin{DoxyCompactList}\small\item\em Достать префикс из дерева \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \& \mbox{\hyperlink{class_haffman_tree_a032d0b880f614a96053db17e0db35c82}{Get\+Prefixes}} ()
+\begin{DoxyCompactList}\small\item\em Найти префиксы \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_haffman_tree_a6e5b485febb9dbb9deabc7167a7b17a0}{Clear}} ()
+\begin{DoxyCompactList}\small\item\em Очистка дерева \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_haffman_tree_a6b0f56a7d1a7271e63dc53396acb1738}\label{class_haffman_tree_a6b0f56a7d1a7271e63dc53396acb1738}} 
+\mbox{\hyperlink{class_haffman_tree_node}{Haffman\+Tree\+Node}} $\ast$ {\bfseries start}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Дерево Хаффмана 
+
+Данный класс хранит в себе дерево, построенное по таблице Хаффмана 
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_haffman_tree_a6e5b485febb9dbb9deabc7167a7b17a0}\label{class_haffman_tree_a6e5b485febb9dbb9deabc7167a7b17a0}} 
+\index{HaffmanTree@{HaffmanTree}!Clear@{Clear}}
+\index{Clear@{Clear}!HaffmanTree@{HaffmanTree}}
+\doxysubsubsection{\texorpdfstring{Clear()}{Clear()}}
+{\footnotesize\ttfamily void Haffman\+Tree\+::\+Clear (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Очистка дерева 
+
+Пока что ничерта не делает, так как автор не знает, что тут писать \begin{DoxyRefDesc}{Необходимо сделать}
+\item[\mbox{\hyperlink{todo__todo000001}{Необходимо сделать}}]Видимо, что-\/то здесь надо сделать \end{DoxyRefDesc}
+\mbox{\Hypertarget{class_haffman_tree_a032d0b880f614a96053db17e0db35c82}\label{class_haffman_tree_a032d0b880f614a96053db17e0db35c82}} 
+\index{HaffmanTree@{HaffmanTree}!GetPrefixes@{GetPrefixes}}
+\index{GetPrefixes@{GetPrefixes}!HaffmanTree@{HaffmanTree}}
+\doxysubsubsection{\texorpdfstring{GetPrefixes()}{GetPrefixes()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ \& Haffman\+Tree\+::\+Get\+Prefixes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Найти префиксы 
+
+Запускает рекурсивную функцию поиска префиксев в дереве. В случае, если в дереве содержится один префикс, возвращает его. \begin{DoxyReturn}{Возвращает}
+Найденные префиксы 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_haffman_tree_aba49b5f9d551c141004b78e900c9ac56}\label{class_haffman_tree_aba49b5f9d551c141004b78e900c9ac56}} 
+\index{HaffmanTree@{HaffmanTree}!TryGetChar@{TryGetChar}}
+\index{TryGetChar@{TryGetChar}!HaffmanTree@{HaffmanTree}}
+\doxysubsubsection{\texorpdfstring{TryGetChar()}{TryGetChar()}}
+{\footnotesize\ttfamily bool Haffman\+Tree\+::\+Try\+Get\+Char (\begin{DoxyParamCaption}\item[{int}]{current\+Bit,  }\item[{char \&}]{out }\end{DoxyParamCaption})}
+
+
+
+Достать префикс из дерева 
+
+Проход по дереву, в попытке найти следующий символ 
+\begin{DoxyParams}{Аргументы}
+{\em current\+Bit} & Если равен нулю, перейти к первому узлу, иначе ко второму \\
+\hline
+{\em out} & Ссылка, в которую записывается следующий символ, если он найден \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+true если символ найден, иначе false 
+\end{DoxyReturn}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+haffmantree.\+h\item 
+haffmantree.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,155 @@
+\hypertarget{class_haffman_archiver}{}\doxysection{Класс Haffman\+Archiver}
+\label{class_haffman_archiver}\index{HaffmanArchiver@{HaffmanArchiver}}
+
+
+Архиватор Хаффмана  
+
+
+
+
+{\ttfamily \#include $<$haffmanarchiver.\+h$>$}
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_haffman_archiver_a3b5d39255b0bfe67f1ac7762dbbcd59f}{Haffman\+Archiver}} ()
+\begin{DoxyCompactList}\small\item\em Пустой объект \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_haffman_archiver_a634e6f1dd358d585503c531b74370f76}{Haffman\+Archiver}} (std\+::string input\+File\+Path, std\+::string output\+File\+Path)
+\begin{DoxyCompactList}\small\item\em Объект с указанными путями к файлам \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_haffman_archiver_a1791fc32df9b5a29520e60fd9d2999b8}{Set\+Files\+Path}} (std\+::string input\+File\+Path, std\+::string output\+File\+Path)
+\begin{DoxyCompactList}\small\item\em Указание путей к файлам \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_haffman_archiver_a8e8a00038fd515ada7d089cb0f77131e}{Prossed\+Archiving}} ()
+\begin{DoxyCompactList}\small\item\em Выполнить архивацию \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_haffman_archiver_a43a22319e29295d98838a604eef24888}{Prossed\+Dearchiving}} ()
+\begin{DoxyCompactList}\small\item\em Выполнить деархивацию \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_haffman_archiver_a32fda425fc2482a123c50c9403bab4a0}{Prossed\+Archiving}} (std\+::string input\+File\+Path, std\+::string output\+File\+Path)
+\begin{DoxyCompactList}\small\item\em Выполнить архивацию с заданными файлами \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_haffman_archiver_a056445b4ccba609fffa56256cb555e46}{Prossed\+Dearchiving}} (std\+::string input\+File\+Path, std\+::string output\+File\+Path)
+\begin{DoxyCompactList}\small\item\em Выполнить деархивацию с заданными файлами \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Архиватор Хаффмана 
+
+Данный класс представляет из себя набор методов для работы по алгоритму Хаффмана 
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{class_haffman_archiver_a3b5d39255b0bfe67f1ac7762dbbcd59f}\label{class_haffman_archiver_a3b5d39255b0bfe67f1ac7762dbbcd59f}} 
+\index{HaffmanArchiver@{HaffmanArchiver}!HaffmanArchiver@{HaffmanArchiver}}
+\index{HaffmanArchiver@{HaffmanArchiver}!HaffmanArchiver@{HaffmanArchiver}}
+\doxysubsubsection{\texorpdfstring{HaffmanArchiver()}{HaffmanArchiver()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Haffman\+Archiver\+::\+Haffman\+Archiver (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Пустой объект 
+
+Путь к файлам не указан \mbox{\Hypertarget{class_haffman_archiver_a634e6f1dd358d585503c531b74370f76}\label{class_haffman_archiver_a634e6f1dd358d585503c531b74370f76}} 
+\index{HaffmanArchiver@{HaffmanArchiver}!HaffmanArchiver@{HaffmanArchiver}}
+\index{HaffmanArchiver@{HaffmanArchiver}!HaffmanArchiver@{HaffmanArchiver}}
+\doxysubsubsection{\texorpdfstring{HaffmanArchiver()}{HaffmanArchiver()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Haffman\+Archiver\+::\+Haffman\+Archiver (\begin{DoxyParamCaption}\item[{std\+::string}]{input\+File\+Path,  }\item[{std\+::string}]{output\+File\+Path }\end{DoxyParamCaption})}
+
+
+
+Объект с указанными путями к файлам 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em input\+File\+Path} & Путь к входному файлу \\
+\hline
+{\em output\+File\+Path} & Путь к выходному файлу \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{class_haffman_archiver_a8e8a00038fd515ada7d089cb0f77131e}\label{class_haffman_archiver_a8e8a00038fd515ada7d089cb0f77131e}} 
+\index{HaffmanArchiver@{HaffmanArchiver}!ProssedArchiving@{ProssedArchiving}}
+\index{ProssedArchiving@{ProssedArchiving}!HaffmanArchiver@{HaffmanArchiver}}
+\doxysubsubsection{\texorpdfstring{ProssedArchiving()}{ProssedArchiving()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int Haffman\+Archiver\+::\+Prossed\+Archiving (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Выполнить архивацию 
+
+Выполняется архивация с текущими сохраненными путями к файлам \begin{DoxyReturn}{Возвращает}
+0 в случае успеха, иначе код ошибки 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_haffman_archiver_a32fda425fc2482a123c50c9403bab4a0}\label{class_haffman_archiver_a32fda425fc2482a123c50c9403bab4a0}} 
+\index{HaffmanArchiver@{HaffmanArchiver}!ProssedArchiving@{ProssedArchiving}}
+\index{ProssedArchiving@{ProssedArchiving}!HaffmanArchiver@{HaffmanArchiver}}
+\doxysubsubsection{\texorpdfstring{ProssedArchiving()}{ProssedArchiving()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int Haffman\+Archiver\+::\+Prossed\+Archiving (\begin{DoxyParamCaption}\item[{std\+::string}]{input\+File\+Path,  }\item[{std\+::string}]{output\+File\+Path }\end{DoxyParamCaption})}
+
+
+
+Выполнить архивацию с заданными файлами 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em input\+File\+Path} & Путь к входному файлу \\
+\hline
+{\em output\+File\+Path} & Путь к выходному файлу \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+0 в случае успеха, иначе код ошибки 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_haffman_archiver_a43a22319e29295d98838a604eef24888}\label{class_haffman_archiver_a43a22319e29295d98838a604eef24888}} 
+\index{HaffmanArchiver@{HaffmanArchiver}!ProssedDearchiving@{ProssedDearchiving}}
+\index{ProssedDearchiving@{ProssedDearchiving}!HaffmanArchiver@{HaffmanArchiver}}
+\doxysubsubsection{\texorpdfstring{ProssedDearchiving()}{ProssedDearchiving()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily int Haffman\+Archiver\+::\+Prossed\+Dearchiving (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Выполнить деархивацию 
+
+Выполняется деархивация с текущими сохраненными путями к файлам \begin{DoxyReturn}{Возвращает}
+0 в случае успеха, иначе код ошибки 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_haffman_archiver_a056445b4ccba609fffa56256cb555e46}\label{class_haffman_archiver_a056445b4ccba609fffa56256cb555e46}} 
+\index{HaffmanArchiver@{HaffmanArchiver}!ProssedDearchiving@{ProssedDearchiving}}
+\index{ProssedDearchiving@{ProssedDearchiving}!HaffmanArchiver@{HaffmanArchiver}}
+\doxysubsubsection{\texorpdfstring{ProssedDearchiving()}{ProssedDearchiving()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily int Haffman\+Archiver\+::\+Prossed\+Dearchiving (\begin{DoxyParamCaption}\item[{std\+::string}]{input\+File\+Path,  }\item[{std\+::string}]{output\+File\+Path }\end{DoxyParamCaption})}
+
+
+
+Выполнить деархивацию с заданными файлами 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em input\+File\+Path} & Путь к входному файлу \\
+\hline
+{\em output\+File\+Path} & Путь к выходному файлу \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+0 в случае успеха, иначе код ошибки 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_haffman_archiver_a1791fc32df9b5a29520e60fd9d2999b8}\label{class_haffman_archiver_a1791fc32df9b5a29520e60fd9d2999b8}} 
+\index{HaffmanArchiver@{HaffmanArchiver}!SetFilesPath@{SetFilesPath}}
+\index{SetFilesPath@{SetFilesPath}!HaffmanArchiver@{HaffmanArchiver}}
+\doxysubsubsection{\texorpdfstring{SetFilesPath()}{SetFilesPath()}}
+{\footnotesize\ttfamily void Haffman\+Archiver\+::\+Set\+Files\+Path (\begin{DoxyParamCaption}\item[{std\+::string}]{input\+File\+Path,  }\item[{std\+::string}]{output\+File\+Path }\end{DoxyParamCaption})}
+
+
+
+Указание путей к файлам 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em input\+File\+Path} & Путь к входному файлу \\
+\hline
+{\em output\+File\+Path} & Путь к выходному файлу \\
+\hline
+\end{DoxyParams}
+
+
+Объявления и описания членов классов находятся в файлах\+:\begin{DoxyCompactItemize}
+\item 
+haffmanarchiver.\+h\item 
+haffmanarchiver.\+cpp\end{DoxyCompactItemize}
